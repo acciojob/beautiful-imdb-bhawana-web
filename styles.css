@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+/* Movie Poster Styling */
+.moviePic {
+    height: 450px;
+    width: 300px;
+    opacity: 0.9;
+    display: block;
+    margin: 50px auto; /* Centers the image horizontally */
+    border-radius: 10px; /* Slightly rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect around the image */
+}
+
+/* Movie Description Styling */
+.movieDetail {
+    position: absolute;
+    top: 50%; /* Vertically centers the text */
+    width: 80%; /* Sets a width for the description text */
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    transform: translateY(-50%); /* Adjusts position to perfectly center the text */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; /* Increases line height for better readability */
+}
